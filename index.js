@@ -1,17 +1,14 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
-
 let votingAge = 34;
 console.log(votingAge > 18);
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
-
 var faveFood = 'pizza';
 faveFood = 'sushi';
 console.log(faveFood);
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
-
 Number("1999");
 
 //Task d: Write a function to multiply a*b 
@@ -44,11 +41,10 @@ console.log(dogAge);
 // 7 - 12 months 4% of their body weight
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
-
 let dogWeight = 15;
-let dogAge = 1;
+let dogAge2 = 1;
 
-if (dogAge >= 1) {
+if (dogAge2 >= 1) {
     if (dogWeight <= 5) {
         console.log(dogWeight*.05);
     } else if (dogWeight < 10) {
@@ -59,15 +55,14 @@ if (dogAge >= 1) {
         console.log(dogWeight*.02);
     }
 } else {
-    if (dogAge <= .33) {
+    if (dogAge2 <= .33) {
       console.log(dogWeight*.1);
-    } else if (dogAge <= .58) {
+    } else if (dogAge2 <= .58) {
       console.log(dogWeight*.05);
-    } else if (dogAge > .59) {
+    } else if (dogAge2 > .59) {
       console.log(dogWeight*.04);
     }
 }
-
 
 /************************************************************** Task 4 **************************************************************/
 // Rock, Paper, Sissors
@@ -179,20 +174,12 @@ function grade(mark) {
       return "A";
     }
   }
-  
+grade(85);
 /************************************************************** Stretch **************************************************************/
 //Create a function that counts the number of vowels within a string. It should handle both capitalized and uncapitalized vowels.
 // Hint - you may need to study tomorrow's traning kit on arrays 
 // try looking up the .includes() method
 
-
-
 /************************************************************** Stretch **************************************************************/
 //Take Rock, Paper, Sissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
-
-
-
-
-
-
