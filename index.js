@@ -6,9 +6,14 @@ console.log(votingAge > 18); //true
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
-var faveFood = 'pizza';
-faveFood = 'sushi';
-console.log(faveFood); //sushi
+let faveFood;
+let name = 'Tracy';
+if (name === 'Tracy') {
+  faveFood = 'sushi';
+} else {
+  faveFood = 'peesha';
+}
+console.log(faveFood);
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
 
@@ -16,10 +21,10 @@ console.log(Number("1999")); //1999
 
 //Task d: Write a function to multiply a*b 
 
-var a = 2;
-var b = 8;
-var c = a * b;
-console.log(c); // 2 * 8 = 16 
+function multiplyNums (a,b) {
+  return a * b;
+}
+multiplyNums (2,3); //multiplies variable a & variable b
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
